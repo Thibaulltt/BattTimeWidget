@@ -15,7 +15,7 @@ Download the files on your computer, and copy the files BattTimeWidget.10s.sh an
 
 If you cannot install the files, or the bitbzar widget somehow isn't working properly, check you have the permissions to execute the files (`chmod +x BattTimeWidget.10s.sh;chmod +x dependencies/battstat`)
 
-# Pictures
+# Behaviour
 
 When you are plugged in and charging :
 
@@ -24,6 +24,8 @@ When you are plugged in and charging :
 When you are on battery, with more than 2 hours left : 
 
 ![BatteryNearlyFullAndDepleting](http://i.imgur.com/RQuJjuS.png)
+
+While it doesn't actually show on these pictures, the round icon on the bar is the same color as the "Remaining" text.
 
 # Known issues
 
