@@ -124,9 +124,9 @@ print_time() {
 	time="calc..."
     fi
 
-    # Hide time when fully charged.
+    # When fully charged, we still want the time displayed
     if [ ! -z "$charged" ]; then
-	time=""
+	time="0:00"
     fi
     
     if [ ! -z "$time" ]; then
