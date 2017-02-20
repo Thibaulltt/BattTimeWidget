@@ -8,3 +8,7 @@ It has not been tested on a desktop computer, as I have not access to one right 
 It is proven to work on macOS 10.12.3 on a Macbook Pro Unibody, but I cannot test it on any other OSes & machines. If you can test it, send me your OS/machine through a message on GitHub or on my personnal [twitter](https://www.twitter.com/tdv_fr) and I will add it to the list of working configs.
 
 You are free to use this software however you want as long as you credit to this repo as well as [imwally's repo](https://www.github.com/imwally/battstat).
+
+# Installation
+
+Download the files on your computer, and copy the files BattTimeWidget.10s.sh and the 'dependencies' folder into your bitbar widget folder, refresh bitbar and you should be good to go !
