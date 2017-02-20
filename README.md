@@ -15,6 +15,16 @@ Download the files on your computer, and copy the files BattTimeWidget.10s.sh an
 
 If you cannot install the files, or the bitbzar widget somehow isn't working properly, check you have the permissions to execute the files (`chmod +x BattTimeWidget.10s.sh;chmod +x dependencies/battstat`)
 
+# Pictures
+
+When you are plugged in and charging :
+
+(http://i.imgur.com/JjKc4Sm.png)
+
+When you are on battery, with more than 2 hours left : 
+
+(http://i.imgur.com/RQuJjuS.png)
+
 # Known issues
 
 `pmset`, the utility on which `battstat` is based, seems not to calculate the time remaining on battery power when the battery percentage is at 100%.
