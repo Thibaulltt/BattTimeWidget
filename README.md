@@ -1,7 +1,7 @@
 # BattTimeWidget
-This little piece of code lets you have a widget in BitBar that grabs information about your battery &amp; charging status on your Mac computer. 
+This little piece of code lets you have a widget in [BitBar](https://github.com/matryer/bitbar) that grabs information about your battery &amp; charging status on your Mac computer. 
 
-This widget has been created using imwally's excellent work (you can find it [here](https://github.com/imwally/battstat)). It is just a wrapper to use in bitbar. It gives information about the time left until full charge of the laptop, or the time left until the full discharge of the laptop.
+This widget has been created using [imwally](https://github.com/imwally)'s excellent work (you can find it [here](https://github.com/imwally/battstat)). It is just a wrapper to use in bitbar. It gives information about the time left until full charge of the laptop, or the time left until the full discharge of the laptop.
 
 It has not been tested on a desktop computer, as I have not access to one right now.
 
