@@ -9,6 +9,8 @@ It is proven to work on macOS 10.12.3 on a Macbook Pro Unibody, but I cannot tes
 
 You are free to use this software however you want as long as you credit to this repo as well as [imwally's repo](https://www.github.com/imwally/battstat).
 
-# Installation
+# Installation & troubleshooting
 
 Download the files on your computer, and copy the files BattTimeWidget.10s.sh and the 'dependencies' folder into your bitbar widget folder, refresh bitbar and you should be good to go !
+
+If you cannot install the files, or the bitbzar widget somehow isn't working properly, check you have the permissions to execute the files (`chmod +x BattTimeWidget.10s.sh;chmod +x dependencies/battstat`)
