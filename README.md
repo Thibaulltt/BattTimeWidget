@@ -19,11 +19,11 @@ If you cannot install the files, or the bitbzar widget somehow isn't working pro
 
 When you are plugged in and charging :
 
-(http://i.imgur.com/JjKc4Sm.png)
+![BatteryFullAndCharging](http://i.imgur.com/JjKc4Sm.png)
 
 When you are on battery, with more than 2 hours left : 
 
-(http://i.imgur.com/RQuJjuS.png)
+![BatteryNearlyFullAndDepleting](http://i.imgur.com/RQuJjuS.png)
 
 # Known issues
 
