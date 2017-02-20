@@ -1,0 +1,10 @@
+#!/bin/sh
+
+if test $# == 1
+then
+	cp BattTimeWidget.10s.sh $1
+	cp -r dependencies $1
+	ln $1/dependencies/battstat /usr/local/bin
+else
+	echo " Path not recognized.\n Usage : \n install <path to bitbar plugins folder>"
+fi
