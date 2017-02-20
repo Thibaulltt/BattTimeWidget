@@ -14,3 +14,9 @@ You are free to use this software however you want as long as you credit to this
 Download the files on your computer, and copy the files BattTimeWidget.10s.sh and the 'dependencies' folder into your bitbar widget folder, refresh bitbar and you should be good to go !
 
 If you cannot install the files, or the bitbzar widget somehow isn't working properly, check you have the permissions to execute the files (`chmod +x BattTimeWidget.10s.sh;chmod +x dependencies/battstat`)
+
+# Known issues
+
+`pmset`, the utility on which `battstat` is based, seems not to calculate the time remaining on battery power when the battery percentage is at 100%.
+
+Pics in just a bit ...
