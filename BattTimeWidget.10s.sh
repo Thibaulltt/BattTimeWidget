@@ -10,8 +10,8 @@
 # <bitbar.abouturl>http://github.com/Thibaulltt/hello-world</bitbar.abouturl>
 
 # Get info for widget & dropdown menu
-rem=`~/COMMANDES/battstat {t}`
-per=`~/COMMANDES/battstat {p}`
+rem=`./dependencies/battstat {t}`
+per=`./dependencies/battstat {p}`
 # Get charging status from pmset(1)
 pmset1=`pmset -g adapter | head -1 | tail -1`
 pmset2=`pmset -g adapter | head -2 | tail -1`
