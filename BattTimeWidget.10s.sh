@@ -7,11 +7,11 @@
 # <bitbar.desc>Wrapper for battstat, developped originally by http://www.github.com/imwally</bitbar.desc>
 # <bitbar.image>http://www.imgur.com/</bitbar.image>
 # <bitbar.dependencies>none</bitbar.dependencies>
-# <bitbar.abouturl>http://github.com/Thibaulltt/hello-world</bitbar.abouturl>
+# <bitbar.abouturl>http://github.com/Thibaulltt/BattTimeWidget</bitbar.abouturl>
 
 # Get info for widget & dropdown menu
-rem=`./dependencies/battstat {t}`
-per=`./dependencies/battstat {p}`
+rem=`battstat {t}`
+per=`battstat {p}`
 # Get charging status from pmset(1)
 pmset1=`pmset -g adapter | head -1 | tail -1`
 pmset2=`pmset -g adapter | head -2 | tail -1`
@@ -55,7 +55,6 @@ else
 	fi
 fi
 echo "Percentage = $per"
-
 # --------------------------------
 # Get charging/not charging status
 # --------------------------------
